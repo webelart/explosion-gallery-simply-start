@@ -1,0 +1,32 @@
+body,
+html {
+  font: 16px/1.4 Georgia, serif;
+}
+
+.page {
+  min-width: 1000px;
+  padding: 2.5rem 2rem;
+}
+
+/*
+Различия в с stylus и css.
+В уроке использовался stylus. Поэтому были доступны вложенности:
+.gallery {
+  &Item {
+    ....
+  }
+}
+
+В чистом CSS это не доступно и код сверху будет выглядеть:
+.gallery {}
+.galleryItem {}
+
+Так и по остальным стилям
+.card {}
+.cardLink {}
+.cardContent {}
+
+Если ховер
+
+.cardLink:hover {}
+*/
